@@ -14,6 +14,7 @@ Uses modularity and random function to generate mines according to the level cho
 g++ minesweeper.cpp -o minesweeper
 ./minesweeper
 ```
+if you would like to cheat you can uncomment the line that states cheatmines(realboard). 
 
 
 ## How to play
@@ -21,6 +22,17 @@ g++ minesweeper.cpp -o minesweeper
 ### Choose a difficulty
 
 ![Difficulty](screenshots/difficulty.png)
+
+The difference between the levels are the size of the "board" and the number of mines.
+#### Beginner
+Size: 9 x 9
+Mines: 10
+#### Intermediate
+Size: 16 x 16
+Mines: 40
+#### Advanced
+Size: 24 x 24 
+Mines: 99
 
 ### Play the game!
 
